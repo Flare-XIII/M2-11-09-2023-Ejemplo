@@ -1,0 +1,29 @@
+COMANDOS:
+
+configurar credenciales de GIT:
+git config --global user.name "Tu nombre"
+git config --global user.email email@email.com
+
+cd      -> permite moverse entre directorios, ejemplo: cd assets
+ls      -> permite listar archivos y carpetas dentro de una carpeta
+touch   -> permite crear nuevos archivos, ejemplo: touch index.html
+mkdir   -> permite crear directorios, ejemplo: mkdir assets
+pwd     -> nos indica la ublicación en la que nos encontramos
+rmdir   -> permite eliminar un directorio siempre que se encuentre vacío
+rm -r   -> permite eliminar un directorio con su contenido incluído
+cat     -> permite ver el contenido de un archivo, ejemplo: cat apuntes.txt
+mv      -> permite mover un archivo o directorio hacia otro lugar
+            ejemplo: mv styles.css assets/css
+            también permite renombrar archivos
+cp      -> permite copiar un archivo o directorio, ejemplos:
+         1-. ejemplo con archivo: cp apuntes.txt ./apuntes_copia.txt
+         2-. ejemplo con directorio: cp -r assets ./assets2
+
+COMANDOS DE GIT:
+git init   -> permite inicializar un repositorio local
+git status -> permite verificar si hay archivos que se encuentran sin seguimiento o se encuetren
+            modificados y que no se encuentren en el stage area
+git add    -> permite agregar los cambios o nuevos archivos al área de preparación (stage area)
+            ejemplos: git add . / git add index.html
+git commit -> permite versionar los cambios del proyect
+    ejemplo: git commit -m "comentarios de la versión"
